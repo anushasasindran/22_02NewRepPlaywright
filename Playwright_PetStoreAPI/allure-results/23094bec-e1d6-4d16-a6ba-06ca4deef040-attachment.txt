@@ -1,0 +1,5 @@
+pet
+https://petstore.swagger.io/v2/
+200001
+[Function: status]
+{ code: 1, type: 'error', message: 'Pet not found' }

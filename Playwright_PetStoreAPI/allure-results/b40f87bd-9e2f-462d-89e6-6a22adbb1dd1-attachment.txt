@@ -1,0 +1,4 @@
+pet
+https://petstore.swagger.io/v2/
+[Function: status]
+{ code: 200, type: 'unknown', message: 'ok' }

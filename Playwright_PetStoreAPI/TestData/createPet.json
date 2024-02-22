@@ -1,0 +1,39 @@
+{
+    "valid":{
+    "id": 200001,
+    "category": {
+      "id": 101,
+      "name": "dog"
+    },
+    "name": "kesar",
+    "photoUrls": [
+      "https://www.nationalgeographic.com/animals/mammals/facts/domestic-dog"
+    ],
+    "tags": [
+      {
+        "id": 11,
+        "name": "brown"
+      }
+    ],
+    "status": "available"
+  },
+  "invalid":{
+    "id": "test123",
+    "category": {
+      "id": 101,
+      "name": "dog"
+    },
+    "name": "kesar",
+    "photoUrls": [
+      "https://www.nationalgeographic.com/animals/mammals/facts/domestic-dog"
+    ],
+    "tags": [
+      {
+        "id": 11,
+        "name": "brown"
+      }
+    ],
+    "status": "available"
+  }
+
+}

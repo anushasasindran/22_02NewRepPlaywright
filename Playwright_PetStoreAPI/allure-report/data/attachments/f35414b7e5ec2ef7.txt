@@ -1,0 +1,11 @@
+pet
+https://petstore.swagger.io/v2/
+[Function: status]
+{
+  id: 2078,
+  petId: 10001,
+  quantity: 2,
+  shipDate: '2024-02-18T12:32:47.904+0000',
+  status: 'placed',
+  complete: true
+}

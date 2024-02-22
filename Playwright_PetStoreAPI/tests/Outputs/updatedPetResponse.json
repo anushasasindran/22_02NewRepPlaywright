@@ -1,0 +1,18 @@
+{
+  "id": 200001,
+  "category": {
+    "id": 102,
+    "name": "cat"
+  },
+  "name": "jimmy",
+  "photoUrls": [
+    "https://www.nationalgeographic.com/animals/mammals/facts/domestic-dog"
+  ],
+  "tags": [
+    {
+      "id": 11,
+      "name": "black"
+    }
+  ],
+  "status": "sold"
+}

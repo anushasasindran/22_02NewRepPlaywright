@@ -1,0 +1,14 @@
+pet
+https://petstore.swagger.io/v2/
+111111
+[Function: status]
+{
+  id: 111111,
+  username: 'testuser4',
+  firstName: 'anusha',
+  lastName: 'sasindran',
+  email: 'test@testuser.com',
+  password: 'test123',
+  phone: '96236535656',
+  userStatus: 0
+}

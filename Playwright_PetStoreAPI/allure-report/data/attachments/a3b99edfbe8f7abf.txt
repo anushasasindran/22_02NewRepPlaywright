@@ -1,0 +1,5 @@
+pet
+https://petstore.swagger.io/v2/
+200001
+[Function: status]
+The pet is already deleted

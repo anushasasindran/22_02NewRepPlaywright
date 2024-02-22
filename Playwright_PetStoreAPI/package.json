@@ -1,0 +1,36 @@
+{
+  "name": "playwrightv1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test:chromium": "npx playwright test api_tc_order.spec.ts --project=chromium --headed",
+    "parallel:test": "npx playwright test api_tc_order.spec.ts",
+    "envParallel:test": "cross-env test_env=petStore npx playwright test",
+    "envTest:chromium": "cross-env test_env=petStore npx playwright test api_tc_order.spec.ts --project=chromium --headed",
+    "envTestSingle:chromium": "cross-env test_env=petStore npx playwright test deleteOrder.spec.ts --project=chromium --headed",
+    "envTest:desktop-firefox": "cross-env test_env=petStore npx playwright test order.spec.ts --project=firefox --headed",
+    "envTest:desktop-webkit": "cross-env test_env=petStore npx playwright test order.spec.ts --project=webkit --headed",
+    "clean:allureReports": "rimraf allure-report allure-results && mkdirp allure-report allure-results",
+    "generate:allureReport" : "npx allure generate ./allure-results --clean",
+    "open:allureReport": "npx allure open ./allure-report",
+    "preTest":"npm run clean:allureReports",
+    "postTest":"npm run generate:allureReport && npm run open:allureReport",
+    "e2e:envTest": "npm run envTest:chromium || npm run postTest",
+    "e2e:Test": "npm run test:chromium || npm run postTest"
+   
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.41.2",
+    "@types/node": "^20.11.16",
+    "allure-commandline": "^2.27.0",
+    "allure-playwright": "^2.12.2",
+    "cross-env": "^7.0.3",
+    "dotenv": "^16.4.1",
+    "mkdirp": "^3.0.1",
+    "rimraf": "^5.0.5"
+  }
+}

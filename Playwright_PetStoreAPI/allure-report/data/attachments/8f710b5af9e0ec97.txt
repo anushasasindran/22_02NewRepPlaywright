@@ -1,0 +1,5 @@
+pet
+https://petstore.swagger.io/v2/
+{ code: 500, type: 'unknown', message: 'something bad happened' }
+{ code: 500, type: 'unknown', message: 'something bad happened' }
+{ code: 500, type: 'unknown', message: 'something bad happened' }
