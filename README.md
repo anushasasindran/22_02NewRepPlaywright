@@ -1,10 +1,10 @@
-Anusha_Playwright
+
 This repository contains API tests written in Playwright for the Swagger Petstore API.
 
-Tool and Language
+**Tool and Language**
 Playwright with Typescript
 
-Scope of Automation
+**Scope of Automation**
 The following 14 APIs from Petstore https://petstore.swagger.io/#/ are automated.
 
 *Create Pet *Get Pet *Update Pet *Delete Pet *Create Users from array object *Create an User *Get User *Update User *User Login *User Logout *Delete User *Create Order *Get Order *Delete Order
