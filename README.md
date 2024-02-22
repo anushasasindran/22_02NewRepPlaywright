@@ -33,10 +33,10 @@ This framework supports cross environment configuration leveraging cross-envfor 
 **How to run the tests?**  
 (All the scripts to run in different ways are mentioned in package.json)  
 
-1.An master spec file(order file is kept under tests folder, with the test cases imported in order)
-2.Run the tests using cross-env and in chromium browser cross-env test_env=petStore npx playwright test api_tc_order.spec.ts --project=chromium --headed
-3.Run the tests without env variable npx playwright test api_tc_order.spec.ts --project=chromium --headed
-4.The test scripts mentioned in package.json to be run as 'npm run scriptname' Example : "parallel:test": "npx playwright test api_tc_order.spec.ts" How to run? npm run parallel:test
-5.The HTML report will be generated after each run and open that in npx playwright show-report
-6.Allure reports can be generated and opened by running the corresponding scripts mentioned in package.json
-To view the logs and debug in Trace viewer npx playwright test --ui
+1.An master spec file(order file is kept under tests folder, with the test cases imported in order)  
+2.Run the tests using cross-env and in chromium browser cross-env test_env=petStore npx playwright test api_tc_order.spec.ts --project=chromium --headed  
+3.Run the tests without env variable npx playwright test api_tc_order.spec.ts --project=chromium --headed  
+4.The test scripts mentioned in package.json to be run as 'npm run scriptname' Example : "parallel:test": "npx playwright test api_tc_order.spec.ts" How to run? npm run parallel:test  
+5.The HTML report will be generated after each run and open that in npx playwright show-report  
+6.Allure reports can be generated and opened by running the corresponding scripts mentioned in package.json  
+To view the logs and debug in Trace viewer npx playwright test --ui  
