@@ -1,4 +1,4 @@
-# Anusha_Playwright
+# API Automation with Playwright
 This repository contains API tests written in Playwright for the Swagger Petstore API.
 
 ## Tool and Language
